@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>스마트 경로당 지도</title>
+  <link rel="stylesheet" href="style_3.css">
+</head>
+<body>
+  <div class="container">
+    <header class="main-header">
+      <div class="header-top">
+        <div class="left-section">
+          <img src="img/logo.jpg" alt="e-음 마당 로고" class="logo">
+          <span class="slogan">모여라~ '세대를 품앗이로 만드는 공간' e-음 마당으로!</span>
+        </div>
+        <div class="top-buttons">
+          <button class="btn-login">로그인</button>
+          <button class="btn-mypage">My 경로당</button>
+        </div>
+      </div>
+      <nav class="nav-bar">
+        <a href="#">e-음 소식</a>
+        <a href="#">교육 프로그램</a>
+        <a href="#">봉사 활동 신청</a>
+        <a class="active" href="#">e-음 선생님</a>
+        <a href="#">문의하기</a>
+      </nav>
+    </header>
+
+    <section class="application-title">
+      <div class="title-box">
+        <img src="img/location.png" alt="아이콘">
+        <h1>e-음 스마트 경로당 지도</h1>
+      </div>
+      <h2>위치 정보를 통해 나에게 어울리는 경로당을 찾으세요!</h2>
+    </section>
+
+    <section class="map-search-section">
+      <h2>내 주변 스마트 경로당 찾기</h2>
+      <div class="search-box">
+        <label for="region">지역명</label>
+        <input type="text" id="region" placeholder="예: 부천시">
+        <button class="btn-search">검색</button>
+      </div>
+
+      <div class="map-wrapper">
+        <img src="img/map.png" alt="경로당 지도" class="map-image">
+      </div>
+    </section>
+
+    <section class="search-result-section">
+      <div class="result-header">
+        <h2>전체 검색 결과</h2>
+      </div>
+
+      <table class="result-table">
+        <thead>
+          <tr>
+            <th>번호</th>
+            <th>소속지회</th>
+            <th>경로당명</th>
+            <th>주소</th>
+            <th>전화번호</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>오정구</td>
+            <td>강정경로당</td>
+            <td>오정구 고강로 154번길 47</td>
+            <td>032-683-9290</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>원미구</td>
+            <td>펠리스카운티경로당</td>
+            <td>원미구 중동로 108</td>
+            <td>032-663-8580</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>원미구</td>
+            <td>구지경로당</td>
+            <td>원미구 부일로 262</td>
+            <td>032-326-3575</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>소사구</td>
+            <td>고강경로당</td>
+            <td>소사구 경인로 92번길 36</td>
+            <td>032-344-0203</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>부천시경로회</td>
+            <td>부천경로당</td>
+            <td>원미구 조마루로 294번길 45</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>소사구</td>
+            <td>소사경로당</td>
+            <td>소사구 소사로142번길 75-12</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>원미구</td>
+            <td>상동경로당</td>
+            <td>원미구 중동 777번지 35</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>소사구</td>
+            <td>삼정경로당</td>
+            <td>소사구 경인로 433, 3층</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>소사구</td>
+            <td>약대동경로당</td>
+            <td>소사구 신흥로 51번길 20</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>소사구</td>
+            <td>어린이공원경로당</td>
+            <td>소사구 소사로 290번길 45</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="pagination">
+        <a href="#">&lt;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">&gt;</a>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
